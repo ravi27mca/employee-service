@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: employee-service
+
+  config:
+    import: "configserver:http://localhost:9296"
+
+server:
+  port: 8681
